@@ -127,6 +127,57 @@ $(document).ready(function () {
 <hr />
 <div id="lesson-1-workflow" class="section level3">
 <h3>Lesson 1: Workflow</h3>
+<p> </p>
+<div id="git" class="section level4">
+<h4>1.1 Git</h4>
+<p>Git is a <strong>version controll</strong> and <strong>project collaboration</strong> system.</p>
+<p>Consists of 3 components:</p>
+<ul>
+<li>Git - version control system</li>
+<li>GitHub - program that lives on your computer. Web based platform that stores Git-based projects.</li>
+<li>Git Client - Command line or GUI based helper application that assists with the process.</li>
+</ul>
+<p> </p>
+<div id="saving-your-work-git-add-git-commit" class="section level5">
+<h5>Saving your work: <code>git add</code>, <code>git commit</code></h5>
+<pre><code>git init
+git status
+git add
+git commit -m &quot;commit note&quot;
+git log
+git log --oneline
+git diff
+</code></pre>
+<p> </p>
+</div>
+<div id="going-back-in-time-git-checkout-git-revert-git-reset" class="section level5">
+<h5>Going back in time: <code>git checkout</code>, <code>git revert</code>, <code>git reset</code></h5>
+<pre><code>git revert &lt;commit id&gt;
+git checkout &lt;commit id&gt;
+git reset --hard &lt;commit id&gt;</code></pre>
+<p> </p>
+</div>
+<div id="trying-something-new-git-branch-git-checkout" class="section level5">
+<h5>Trying something new: <code>git branch</code>, <code>git checkout</code></h5>
+<pre><code>git checkout -b test-feature  : git branch test-feature, git checkout test-feature
+git merge master
+git merge test-feature
+git branch -v
+git branch -d test-feature
+</code></pre>
+<p> </p>
+</div>
+<div id="going-online-git-push-git-pull" class="section level5">
+<h5>Going online: <code>git push</code>, <code>git pull</code></h5>
+<pre><code>git remote add origin https://github.com/martinkruge/my-datasci-fi-exam.git
+git push origin master
+git pull origin master
+git remote rm origin
+git remote set-url origin &lt;newURL&gt;
+</code></pre>
+<p> </p>
+</div>
+</div>
 </div>
 <div id="lesson-2" class="section level3">
 <h3>Lesson 2:</h3>

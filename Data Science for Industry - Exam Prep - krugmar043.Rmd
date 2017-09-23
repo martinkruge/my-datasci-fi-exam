@@ -11,7 +11,68 @@ knitr::opts_chunk$set(echo = TRUE)
 
 *** 
 
-### Lesson 1: Workflow
+### Lesson 1: Workflow  
+\ 
+
+#### 1.1 Git
+
+Git is a **version controll** and **project collaboration** system. 
+
+Consists of 3 components:  
+
+ * Git - version control system 
+ * GitHub - program that lives on your computer. Web based platform that stores Git-based projects. 
+ * Git Client - Command line or GUI based helper application that assists with the process.  
+
+\  
+
+
+##### Saving your work: `git add`, `git commit` 
+
+```
+git init
+git status
+git add
+git commit -m "commit note"
+git log
+git log --oneline
+git diff
+
+```
+\ 
+
+##### Going back in time: `git checkout`, `git revert`, `git reset`
+
+```
+git revert <commit id>
+git checkout <commit id>
+git reset --hard <commit id>
+```
+\ 
+
+##### Trying something new: `git branch`, `git checkout`
+
+```
+git checkout -b test-feature  : git branch test-feature, git checkout test-feature
+git merge master
+git merge test-feature
+git branch -v
+git branch -d test-feature
+
+```
+\ 
+
+##### Going online: `git push`, `git pull`
+
+```
+git remote add origin https://github.com/martinkruge/my-datasci-fi-exam.git
+git push origin master
+git pull origin master
+git remote rm origin
+git remote set-url origin <newURL>
+
+```
+\ 
 
 
 ### Lesson 2:
