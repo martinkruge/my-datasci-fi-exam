@@ -1,0 +1,46 @@
+---
+title: "Data Science for Industry<br>Exam Prep"
+author: "Martin Kruger"
+date: "23 September 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*** 
+
+### Lesson 1: Workflow
+
+
+### Lesson 2:
+
+
+### Lesson 3:
+
+
+### Lesson 4:
+
+
+### Lesson 5:
+
+
+### Lesson 6:
+
+
+### Lesson 7:
+
+
+### Lesson 8:
+
+
+### Lesson 9:
+
+
+### Lesson 10:
+
+
+### Lesson 11:
+
+
